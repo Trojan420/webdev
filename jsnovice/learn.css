@@ -1,0 +1,70 @@
+.mainhead
+{
+	color:gold;
+	text-align:center;
+}
+*
+{
+	box-sizing:border-box;
+}
+#navbar a
+{
+	color:yellow;
+	font-size:20px;
+	text-decoration:none;
+	display:block;
+}
+#navbar > ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#navbar> ul > li
+{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+#navbar > ul > li > a
+{
+	padding:10px;
+	background:brown;
+}
+#navbar > ul > li > a:hover
+{
+	background:orange;
+	color:silver;
+}
+.bodymake
+{
+	background:url("C:/Users/HP/Desktop/Defined projects/WebDev/bckgrnd/floodlight.jpg");
+	background-attachment:local;
+	background-color:black;
+	color:white;
+}
+.testclick
+{
+	height:200px;
+	line-height:200px;
+	color:white;
+	text-align:center;
+	padding-left:200px;
+	padding-right:200px;
+	background-color:yellow;
+}
+.dd
+{
+	position:relative;
+	display:inline-block;
+}
+.dd-content
+{
+	position:absolute;
+	display:none;
+}
+.dd:hover > .dd-content
+{
+	display:block;
+}
+
